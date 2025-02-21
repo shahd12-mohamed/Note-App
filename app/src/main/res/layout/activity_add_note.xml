@@ -11,6 +11,7 @@
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:padding="@dimen/margin_10"
         tools:context=".ui.theme.AddNote.View.AddNoteActivity">
 
         <com.google.android.material.textfield.TextInputLayout

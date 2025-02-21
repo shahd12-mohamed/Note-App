@@ -21,6 +21,15 @@
             app:titleTextColor="@color/white"
             app:titleCentered="true">
             <ImageView
+                android:id="@+id/themeSwitch"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/moon"
+                android:layout_gravity="end"
+                android:padding="@dimen/padding_8"
+                android:contentDescription="Theme Toggle" />
+
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:src="@drawable/title_img"
